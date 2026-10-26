@@ -1,0 +1,23 @@
+// remove character from the string
+let a = "Ramesh";
+   let removedElement =  a.split("");
+   console.log(removedElement);
+   console.log(a);
+
+
+
+// using .replace 
+
+function replacedElement(str) {
+    // return str.replace("m","");
+    return str.replace(/R/m,"");   // remove all the occurance of the specified string
+}
+console.log(replacedElement(a));
+
+//  using .split and .join
+
+function removed(str) {
+    return str.split("e").join("");
+};
+
+console.log(removed(a));
