@@ -1,6 +1,6 @@
 // left shift 
 
-function leftShift(arr, n) {
+function  leftShift(arr, n) {
     if(n < 0) {
         n = arr.length - n;
     };
