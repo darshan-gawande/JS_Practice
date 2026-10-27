@@ -77,7 +77,7 @@ function mostRepeatedArray(arr)  {
  
 // console.log(mostRepeatedArray([1,0,1,2,3]));  
 
-function insertElement(arr,position, element) {
+function insertElement(arr, position, element) {
     if(position > arr.length) {
         return Error("Invalid Length");
     }

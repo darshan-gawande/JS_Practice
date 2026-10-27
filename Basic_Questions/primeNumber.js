@@ -3,10 +3,10 @@
 function checkPrimeNumber(n) {
     for(let i = 2; i <= n/2; i++) {
         if(n % i === 0) {
-           return console.log("Not prime number!");
+           return `Not prime number!`;
         }
     }
-    return console.log("Prime Number");
+    return `Prime Number`;
 }
 
 checkPrimeNumber(50);
@@ -24,4 +24,4 @@ function findPrimeNumber(num) {
     return num > 1;
 }
 
-console.log(findPrimeNumber(6));
+// console.log(findPrimeNumber(6));

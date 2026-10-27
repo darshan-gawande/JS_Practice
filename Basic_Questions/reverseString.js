@@ -1,13 +1,12 @@
 let str = "Furious";
 
 // approach 1: split(), reduce
-let str1 = str.split("");
- let str2 = str1.reduce((acc, curr) => {
+let str1 = str.split("").reduce((acc, curr) => {
     let re = curr + acc;
     return re;
  },"");
 
-  console.log(str2);
+  console.log(str1);
 
 //  approach 2: 
 function reverse(st) {

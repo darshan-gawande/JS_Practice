@@ -8,12 +8,12 @@ function findArmstrong(n) {
     while( temp > 0) {
         let digit = temp % 10;
         sum += digit ** 3;
-        temp = parseInt(temp / 10);// parseInt converts the integer into complete number
+        temp = parseInt(temp / 10);// parseInt converts the integer into absolute number
     }
-    return sum === n;　　　　　　　　　　　　　　
+    return sum === n;
 }
 
-console.log(findArmstrong(153));　　　　　　
+console.log(findArmstrong(153));
 
 
 // // Typescript

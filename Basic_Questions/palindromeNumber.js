@@ -15,7 +15,7 @@ function palindrome1(n) {
     }
     return true;
 }
-console.log(palindrome1("121"));
+console.log(palindrome1("RAR"));
 
 // Approach 2: 
 
@@ -25,4 +25,4 @@ function checkPalindrome(str) {
     return str1 === str2;
 }
 
-console.log(checkPalindrome("A man#?, a plan, a canal, Panama"));
+// console.log(checkPalindrome("A man#?, a plan, a canal, Panama"));
